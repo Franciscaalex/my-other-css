@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>work</title>
+    <link rel="stylesheet" href="./mystyle.css" />
+  </head>
+  <body>
+    <h1>MR WORKMAN LOVE STORY</h1>
+    <form action="result.html" method="get">
+      <div>
+        <lable for="fullname">Full Name</lable>
+        <input
+          type="text"
+          name="fullname"
+          id="fullname"
+          class="full"
+          placeholder="surname first"
+          required
+        />
+      </div>
+      <div>
+        <label>Date Of Birth</label>
+        <input type="date" id="date" class="dob" required />
+      </div>
+      <div>
+        <lable
+          >Subjects To Registers <input type="text" class="str" required />
+        </lable>
+      </div>
+      <div>
+        <lable>Gender</lable>
+        <br />
+        <lable for="boy">Male</lable>
+        <input type="radio" class="m" name="gender" id="boy" required />
+        <lable for="girl">Female</lable>
+        <input type="radio" class="f" name="gender" id="girl" required />
+      </div>
+      <div>
+        <select>
+          <option value="class">class</option>
+          <option>SS3 A</option>
+          <option>SS3 B</option>
+          <option>SS3 C</option>
+          <option>SS3 D</option>
+          <option>SS3 E</option>
+        </select>
+      </div>
+      <div>
+        <label for="Religion">Religion</label>
+        <ul>
+          <li>
+            christain <input type="radio" name="Religion" id="christain" />
+          </li>
+          <li>muslim <input type="radio" name="Religion" id="muslim" /></li>
+          <li>pagan<input type="radio" name="Religion" id="pagan" /></li>
+          <li>None<input type="radio" name="Religion" id="None" /></li>
+        </ul>
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="text" name="email" id="email" class="em" required />
+      </div>
+      <div>
+        <label>password</label>
+        <input type="password" name="password" class="pas" required />
+      </div>
+      <button type="text">submit</button>
+    </form>
+  </body>
+</html>
